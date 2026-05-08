@@ -1,0 +1,11 @@
+{
+    "dependencies": {
+        "typescript": "^6.0.3"
+    },
+    "devDependencies": {
+        "esbuild": "^0.28.0"
+    },
+    "scripts": {
+        "build": "bash build.sh"
+    }
+}
