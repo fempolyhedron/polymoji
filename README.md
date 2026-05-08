@@ -6,7 +6,7 @@ polymoji is a emoji rendering library
 
 Put this in your html:
 ```html
-<script src="content.fempolyhedron.dev/polymoji/polymoji.js"></script>
+<script src="https://content.fempolyhedron.dev/polymoji/polymoji.js"></script>
 ```
 
 Current only dev builds (`content.fempolyhedron.dev/polymoji/polymoji.js`) will be available
