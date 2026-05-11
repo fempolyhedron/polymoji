@@ -118,6 +118,7 @@ const LookupTable: Map<string, string> = new Map<string, string>
     ['\u{1F648}', 'smileys:monkey/see_no_evil'],
     ['\u{1F649}', 'smileys:monkey/hear_no_evil'],
     ['\u{1F64A}', 'smileys:monkey/speak_no_evil'],
+    ["\u{2764}", "smileys:heart/red_heart"],
     ['\u{2764}\u{FE0F}', 'smileys:heart/red_heart'],
     ['\u{1F9E1}', 'smileys:heart/orange_heart'],
     ['\u{1F49B}', 'smileys:heart/yellow_heart'],
