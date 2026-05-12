@@ -118,7 +118,7 @@ var LookupTable = /* @__PURE__ */ new Map([
   ["\u{1F648}", "smileys:monkey/see_no_evil"],
   ["\u{1F649}", "smileys:monkey/hear_no_evil"],
   ["\u{1F64A}", "smileys:monkey/speak_no_evil"],
-  ["\u2764\uFE0F", "smileys:heart/red_heart"],
+  ["\u2764", "smileys:heart/red_heart"],
   ["\u{1F9E1}", "smileys:heart/orange_heart"],
   ["\u{1F49B}", "smileys:heart/yellow_heart"],
   ["\u{1F49A}", "smileys:heart/green_heart"],
@@ -4320,7 +4320,15 @@ var polymoji = class _polymoji {
   }
 };
 function polymoji_initialize() {
-  console.log("polymoji: initialized");
+  console.log(`polymoji - emoji renderer
+
+This website uses polymoji ${polymoji.version}
+Support: uhhh me no make support forum yet \xAF\\_(\u30C4)_/\xAF
+Contributors: FemPolyhedronn
+polymoji is licensed under MIT
+
+(c) FemPolyhedron & contribs
+trans power`);
   document.head.appendChild(style_elem);
   if (typeof polymoji_config === "undefined" || polymoji_config.dontLoadFont === false) {
     polymoji.setFont(new DefaultFont());
