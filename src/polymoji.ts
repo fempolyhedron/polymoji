@@ -386,7 +386,7 @@ function polymoji_parse_page(): void
 function polymoji_initialize(): void
 {
     //please do not remove watermark :pray: please pls pls
-    console.log("polymoji: initialized");
+    console.log(`polymoji - emoji renderer\n\nThis website uses polymoji ${polymoji.version}\nSupport: uhhh me no make support forum yet ¯\\_(ツ)_/¯\nContributors: FemPolyhedronn\npolymoji is licensed under MIT\n\n(c) FemPolyhedron & contribs\ntrans power`);
 
     document.head.appendChild(style_elem);
     
