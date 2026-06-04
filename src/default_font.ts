@@ -10,7 +10,7 @@ export class DefaultFont implements IPolymojiFont
         {
             return "SKIP";
         }
-        return `https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/${file}.png`;
+        return `https://cdn.jsdelivr.net/gh/jdecked/twemoji@17.0.3/assets/72x72/${file}.png`;
     }
     getFontName(): string
     {

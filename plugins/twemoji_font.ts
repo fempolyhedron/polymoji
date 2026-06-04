@@ -19,4 +19,4 @@ class TwemojiFont implements IPolymojiFont
 }
 
 //@ts-ignore
-polymoji.addFont(new PrideFlagsFont());
+polymoji.addFont(new TwemojiFont());
